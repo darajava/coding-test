@@ -63,8 +63,12 @@ function Fees(props: Props) {
   const totalExchange =
     total * exchangeRates[props.sellerTerritory][props.buyerTerritory];
 
+  const yeezyPrice = 17550 * exchangeRates[Territory.EU][props.sellerTerritory];
+
   return (
     <div className={styles.container}>
+      <img src="./ye.jpg" className={styles.kanye} />
+
       <div className={styles.row}>
         Price: {props.currency}
         {props.price}
@@ -82,6 +86,16 @@ function Fees(props: Props) {
         {total.toFixed(2)}{" "}
         {props.currency !== props.buyerCurrency &&
           `(${props.buyerCurrency}${totalExchange.toFixed(2)})`}
+      </div>
+      <div className={`${styles.row} ${styles.yeezy}`}>
+        (Or {(total / yeezyPrice).toFixed(7)}{" "}
+        <a
+          className={styles.link}
+          href="https://www.klekt.com/product/air-yeezy-2-red-october-2014"
+        >
+          yeezy's
+        </a>
+        )
       </div>
     </div>
   );
