@@ -1,0 +1,29 @@
+.input {
+  padding: 10px 22px;
+  font-family: TradeGothicLT;
+  font-size: 18px;
+  outline: none;
+}
+
+.container {
+  /* color: white; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.inputContainer {
+  /* color: white; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.currency {
+  position: absolute;
+  top: 12px;
+  left: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  /* color: rgb(157, 157, 157); */
+}

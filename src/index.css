@@ -1,13 +1,41 @@
+@font-face {
+  font-family: TradeGothicLT;
+  font-display: swap;
+  src: url(https://www.klekt.com/fonts/TradeGothicLT.woff2) format("woff2"),
+    url(https://www.klekt.com/fonts/TradeGothicLT.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: TradeGothicLTBold;
+  font-display: swap;
+  src: url(https://www.klekt.com/fonts/TradeGothicLTBold.woff2) format("woff2"),
+    url(https://www.klekt.com/fonts/TradeGothicLTBold.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: TradeGothicLTLight;
+  font-display: swap;
+  src: url(https://www.klekt.com/fonts/TradeGothicLTLight.woff2) format("woff2"),
+    url(https://www.klekt.com/fonts/TradeGothicLTLight.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "TradeGothicLT", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

@@ -1,0 +1,15 @@
+.container {
+  color: white;
+}
+
+.row {
+  text-align: center;
+  margin: 10px;
+  font-size: 12px;
+}
+
+.total {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+}
